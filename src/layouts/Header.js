@@ -63,7 +63,7 @@ const Header = () => {
             {/* logo */}
             <div className="flex justify-center items-center w-full h-full">
               <Link href="/">
-                <img src="Logo/logo.svg" className="max-h-14" alt="image" />
+                <img src="Logo/logo.svg" className="h-14 pb-2" alt="image" />
               </Link>
             </div>
           </div>

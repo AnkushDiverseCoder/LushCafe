@@ -24,82 +24,87 @@ const About = () => {
       </section>
       {/* Section About-2 */}
       <section className="section kf-choose kf-choose-2">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
-              <div className="kf-titles">
-                <div
-                  className="kf-subtitle element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  About Kaffen
+        <div className="relative p-8 bg-transparent first:mt-0">
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-[900px_auto] bg-center bg-no-repeat" style={{ backgroundImage: "url(Logo/logo.svg)", opacity: 0.2 }}></div>
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
+                <div className="kf-titles">
+                  <div
+                    className="kf-subtitle element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    About Kaffen
+                  </div>
+                  <h3
+                    className="kf-title element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    New London Coffee Founded For Extraordinary Test
+                  </h3>
                 </div>
-                <h3
-                  className="kf-title element-anim-1 scroll-animate"
+                <div
+                  className="kf-text element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  New London Coffee Founded For Extraordinary Test
-                </h3>
-              </div>
-              <div
-                className="kf-text element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae abillo inventore veritatis
-                </p>
-              </div>
-              <div className="kf-choose-list">
-                <ul>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon1.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">Natural Coffee Beans</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptate
+                    accusantium doloremque laudantium, totam rem aperiam eaque
+                    ipsa quae abillo inventore veritatis
+                  </p>
+                </div>
+                <div className="kf-choose-list">
+                  <ul>
+                    <li
+                      className="element-anim-1 scroll-animate"
+                      data-animate="active"
+                    >
+                      <div className="icon">
+                        <img src="images/choose_icon1.png" alt="image" />
                       </div>
-                    </div>
-                  </li>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon2.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">100% ISO Certification</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
+                      <div className="desc">
+                        <h5 className="name">Natural Coffee Beans</h5>
+                        <div className="subname">
+                          Sed ut perspiciatis unde omnis iste natus error
+                          voluptate accusantium doloremque
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                </ul>
+                    </li>
+                    <li
+                      className="element-anim-1 scroll-animate"
+                      data-animate="active"
+                    >
+                      <div className="icon">
+                        <img src="images/choose_icon2.png" alt="image" />
+                      </div>
+                      <div className="desc">
+                        <h5 className="name">100% ISO Certification</h5>
+                        <div className="subname">
+                          Sed ut perspiciatis unde omnis iste natus error
+                          voluptate accusantium doloremque
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <Link
+                  href="menu-coffee"
+                  className="kf-btn element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <span>our menu</span>
+                  <i className="fas fa-chevron-right" />
+                </Link>
               </div>
-              <Link
-                href="menu-coffee"
-                className="kf-btn element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <span>our menu</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
-              <div
-                className="kf-choose-image element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <img src="images/about_img2.jpg" alt="image" />
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
+                <div
+                  className="kf-choose-image element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <img src="images/about_img2.jpg" alt="image" />
+                </div>
               </div>
             </div>
           </div>
