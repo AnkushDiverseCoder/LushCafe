@@ -1,4 +1,5 @@
 import VideoPlayer from "@/src/components/VideoPlayer";
+import { RevealBento } from "@/src/components/sliders/RevealBento";
 import TestimonialsCarousel from "@/src/components/sliders/TestimonialsCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
@@ -23,6 +24,7 @@ const About = () => {
         </div>
       </section>
       {/* Section About-2 */}
+      <RevealBento/>
       <section className="section kf-choose kf-choose-2">
         <div className="relative p-8 bg-transparent first:mt-0">
           <div className="absolute inset-0">

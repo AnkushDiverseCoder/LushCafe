@@ -65,8 +65,33 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <div className="p-10 py-14 section kf-services section-bg ">
+        <div className="mx-auto container">
+          <div className="relative z-20 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4" style={{ backgroundImage: 'radial-gradient(circle, rgba(84,60,43,1) 0%, rgba(50,36,26,1) 57%)' }}>
+            <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0">
+              <div className="lg:self-center">
+                <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
+                  <span className="block">This is a title for your call to action card</span>
+                </h2>
+                <p className="mt-4 text-base leading-6 text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                </p>
+                <p className="mt-4 text-base leading-6 text-dark-blue-800">
+                </p>
+                <Link href="reservation" className="kf-btn ">
+                  <span>Get More Offers</span>
+                </Link>
+              </div>
+            </div>
+            <div className="relative pb-3/5 -mt-6 md:pb-1/2">
+              <img className="absolute inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-10 lg:translate-y-20" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw5fHxsYXB0b3B8ZW58MHwwfHx8MTY5NzQ0ODQ4M3ww&ixlib=rb-4.0.3&q=80&w=1080" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Section Services */}
-      <section className="section kf-services section-bg">
+      {/* <section className="section kf-services section-bg">
         <div className="container">
           <div className="kf-services-items row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
@@ -125,7 +150,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Menu */}
       <section
         className="section kf-menu kf-parallax"
