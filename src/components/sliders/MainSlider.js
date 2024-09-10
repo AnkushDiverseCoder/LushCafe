@@ -9,7 +9,7 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(images/started_img_n6.jpg)" }}
+              style={{ backgroundImage: "url(home/banner.png)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
@@ -36,7 +36,7 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(images/started_img_n5.jpg)" }}
+              style={{ backgroundImage: "url(home/banner1.png)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
@@ -64,7 +64,7 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(images/started_img_n3.jpg)" }}
+              style={{ backgroundImage: "url(home/banner2.png)" }}
             />
             <div className="container">
               <div className="description align-left">
