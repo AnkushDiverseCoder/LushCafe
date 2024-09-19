@@ -25,9 +25,9 @@ const About = () => {
       {/* Section About-2 */}
       <section className="section kf-choose kf-choose-2">
         <div className="relative p-8 bg-transparent first:mt-0">
-          <div className="absolute inset-0">
+          {/* <div className="absolute inset-0">
             <div className="absolute inset-0 bg-[900px_auto] bg-center bg-no-repeat" style={{ backgroundImage: "url(Logo/logo.svg)", opacity: 0.2 }}></div>
-          </div>
+          </div> */}
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 align-self-center">
@@ -100,10 +100,10 @@ const About = () => {
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
                 <div
-                  className="kf-choose-image element-anim-1 scroll-animate"
+                  className="kf-choose-image rounded-lg element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  <img src="images/about_img2.jpg" alt="image" />
+                  <img src="home/about.png" alt="image" />
                 </div>
               </div>
             </div>
@@ -262,73 +262,6 @@ const About = () => {
                       <i className="fab fa-youtube" />
                     </a>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Section Brands */}
-      <section className="section kf-brands">
-        <div className="container">
-          <div className="kf-brands-items row">
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand1.png" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand2.png" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand3.png" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand4.png" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand5.png" alt="image" />
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-2">
-              <div
-                className="kf-brands-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/brand6.png" alt="image" />
                 </div>
               </div>
             </div>

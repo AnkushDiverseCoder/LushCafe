@@ -59,19 +59,20 @@ const Index = () => {
                 className="kf-about-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img src="home/about.png" alt="image" className="rounded-lg"/>
+                <img src="home/about.png" alt="image" className="rounded-lg" />
               </div>
             </div>
           </div>
         </div>
       </section>
+      {/* Offer */}
       <div className="p-10 py-14 section kf-services section-bg ">
         <div className="mx-auto container">
           <div className="relative z-20 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4" style={{ backgroundImage: 'radial-gradient(circle, rgba(84,60,43,1) 0%, rgba(50,36,26,1) 57%)' }}>
             <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0">
               <div className="lg:self-center">
                 <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
-                  <span className="block">This is a title for your call to action card</span>
+                  <span className="block">New BreakFast Menu <span className="text-red-400">50% Off</span></span>
                 </h2>
                 <p className="mt-4 text-base leading-6 text-dark-blue-800">
                 </p>
@@ -87,67 +88,6 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Section Services */}
-      {/* <section className="section kf-services section-bg">
-        <div className="container">
-          <div className="kf-services-items row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <div
-                className="kf-services-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="menu-restaurant">
-                    <img src="images/service1.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <div className="icon">
-                    <i className="las la-utensils" />
-                  </div>
-                  <h5 className="name">Restaurant Menu</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <div
-                className="kf-services-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="menu-coffee">
-                    <img src="images/service2.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <div className="icon">
-                    <i className="las la-coffee" />
-                  </div>
-                  <h5 className="name">Coffee Menu</h5>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-              <div
-                className="kf-services-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="services">
-                    <img src="images/service3.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <div className="icon">
-                    <i className="las la-glass-cheers" />
-                  </div>
-                  <h5 className="name">Food Services</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       {/* Section Menu */}
       <section
         className="section kf-menu kf-parallax"
@@ -159,13 +99,13 @@ const Index = () => {
               className="kf-subtitle element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Choose Best Coffee
+              Choose Best Drinks
             </div>
             <h3
               className="kf-title element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Kaffen Popular Coffee Menu
+              Lush Cafe Signature Drinks
             </h3>
           </div>
           <div
@@ -184,11 +124,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Americano Coffee</h5>
+                    <h5 className="name">Bamboleo</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Passion Fruit Syrup, Coconut Syrup, Milk
                     </div>
-                    <div className="price">$4.9</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -203,11 +143,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Espresso Coffee</h5>
+                    <h5 className="name">Cocumint Cooler</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Fresh coconut with the touch of cucumber and mint
                     </div>
-                    <div className="price">$4.9</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -222,11 +162,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Barista Pouring Syrup</h5>
+                    <h5 className="name">Ping Pong</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Pomegranate, Raspberry, Cranberry
                     </div>
-                    <div className="price">$3.5</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -241,11 +181,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Cold - Coffee</h5>
+                    <h5 className="name">The Paradise</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Strawberry & Passion Fruit Syrup, Orange and Pineapple Juice
                     </div>
-                    <div className="price">$6.0</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -260,11 +200,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Cappuccino Arabica</h5>
+                    <h5 className="name">Ee Sala Cup Namde</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Orange Chunks, Basil leaves, Peach Syrup, Orange Juice
                     </div>
-                    <div className="price">$2.8</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -279,11 +219,11 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Milk Cream Coffee</h5>
+                    <h5 className="name">Saffron Cream</h5>
                     <div className="subname">
-                      2/3 espresso, 1/3 streamed milk
+                      Saffron Syrup, Amul Cream, Orange Juice
                     </div>
-                    <div className="price">$7.5</div>
+                    <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
@@ -291,165 +231,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* Section Grid Carousel */}
-      <section className="section kf-grid-carousel section-bg">
-        <div className="container">
-          <Swiper {...sliderProps.kfGridCarousel} className="swiper-container">
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal2.jpg" className="has-popup-image">
-                    <img src="images/grid_gal2.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Latte</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal3.jpg" className="has-popup-image">
-                    <img src="images/grid_gal3.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Cappuccino</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal4.jpg" className="has-popup-image">
-                    <img src="images/grid_gal4.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Iced Coffee</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal5.jpg" className="has-popup-image">
-                    <img src="images/grid_gal5.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Espresso</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal1.jpg" className="has-popup-image">
-                    <img src="images/grid_gal1.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Black Coffee</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal2.jpg" className="has-popup-image">
-                    <img src="images/grid_gal2.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Latte</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal3.jpg" className="has-popup-image">
-                    <img src="images/grid_gal3.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Cappuccino</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal4.jpg" className="has-popup-image">
-                    <img src="images/grid_gal4.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Iced Coffee</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal5.jpg" className="has-popup-image">
-                    <img src="images/grid_gal5.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Espresso</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
-              <div
-                className="slide-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <a href="images/grid_gal1.jpg" className="has-popup-image">
-                    <img src="images/grid_gal1.jpg" alt="image" />
-                  </a>
-                </div>
-                <div className="desc">
-                  <h5 className="name">Black Coffee</h5>
-                </div>
-              </div>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-      </section>
-      {/* Section Testimonials Carousel */}
-      <TestimonialsCarousel />
       {/* Section Numbers */}
       <section className="section kf-numbers">
         <div className="container">
@@ -509,20 +290,16 @@ const Index = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="home/blog1.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    A Culinary Journey Like No Other
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
                   </div>
                 </div>
               </div>
@@ -534,20 +311,16 @@ const Index = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                    <img src="home/blog2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Decisions For Building Flexible Components DevTools Browser
+                    White - themed Place Ambience
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
                   </div>
                 </div>
               </div>
@@ -559,20 +332,16 @@ const Index = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                    <img src="home/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    SWR React Hooks With Next Increm Ental Static Regeneration
+                    Breathtaking Rooftop Views
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
                   </div>
                 </div>
               </div>
@@ -580,42 +349,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* Section CTA */}
-      {/* <section
-        className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-              <div className="kf-titles">
-                <div
-                  className="kf-subtitle element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  Need a Table On Coffee House
-                </div>
-                <h3
-                  className="kf-title element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  Booking Table For Your &amp; Family Members
-                </h3>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-              <Link
-                href="reservation"
-                className="kf-btn element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <span>booking table</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </Layouts>
   );
 };

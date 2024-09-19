@@ -1,7 +1,6 @@
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Sales from "../popup/Sales";
 const MainSlider = () => {
   return (
     <section className="section kf-started-slider">
@@ -64,7 +63,6 @@ const MainSlider = () => {
         <div className="mainSlider-prev swiper-button-prev" />
         <div className="mainSlider-next swiper-button-next" />
       </Swiper>
-      <Sales/>
     </section>
   );
 };
