@@ -87,9 +87,6 @@ const Header = () => {
                 <li>
                   <Link href="contacts">Contacts</Link>
                 </li>
-                <li>
-                  <Link href="offers">Offers</Link>
-                </li>
               </ul>
             </div>
           </div>
@@ -103,8 +100,8 @@ const Header = () => {
               <span />
             </a>
             {/* btn */}
-            <Link href="reservation" className="kf-btn h-btn">
-              <span>Book a table</span>
+            <Link href="offers" className="kf-btn h-btn">
+              <span>Offers</span>
             </Link>
           </div>
         </div>
@@ -136,9 +133,6 @@ const Header = () => {
                 <li>
                   <Link href="contacts">Contacts</Link>
                 </li>
-                <li>
-                  <Link href="offers">Offers</Link>
-                </li>
               </ul>
         </div>
         {/* mobile topline */}
@@ -146,8 +140,8 @@ const Header = () => {
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* mobile btn */}
-              <Link href="reservation" className="kf-btn h-btn">
-                <span>Book a table</span>
+              <Link href="offers" className="kf-btn h-btn">
+                <span>Offers</span>
                 <i className="fas fa-chevron-right" />
               </Link>
             </div>
@@ -156,9 +150,6 @@ const Header = () => {
               <div className="kf-h-social">
                 <a href="facebook.com" target="blank">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a href="twitter.com" target="blank">
-                  <i className="fab fa-twitter" />
                 </a>
                 <a href="instagram.com" target="blank">
                   <i className="fab fa-instagram" />

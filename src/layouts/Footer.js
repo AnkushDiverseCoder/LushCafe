@@ -23,15 +23,8 @@ const Footer = () => {
               <h5>Working Hours</h5>
               <ul>
                 <li>
-                  Sunday - Thursday
+                  Sunday - Sunday
                   <em>08:00 am - 09:00pm</em>
-                </li>
-                <li>
-                  Only Friday
-                  <em>03:00 pm - 09:00pm</em>
-                </li>
-                <li>
-                  <strong>Saturday Close</strong>
                 </li>
               </ul>
             </div>
@@ -47,17 +40,7 @@ const Footer = () => {
                 <li>
                   <i className="las la-map-marker" />
                   <em>Location :</em>
-                  55 Main Street, New York
-                </li>
-                <li>
-                  <i className="las la-envelope-open-text" />
-                  <em>Email Address :</em>
-                  kaffendev@gmail.com
-                </li>
-                <li>
-                  <i className="las la-phone" />
-                  <em>Phone Number :</em>
-                  +012 (345) 678 99
+                  Doctor's Colony Rd, Kavuri Hills, Madhapur, Hyderabad
                 </li>
               </ul>
             </div>
@@ -72,50 +55,26 @@ const Footer = () => {
               <ul>
                 <li>
                   <a
-                    href="images/grid_gal1.jpg"
+                    href="home/about.png"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal1.jpg" alt="image" />
+                    <img src="home/about.png" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal2.jpg"
+                    href="home/blog3.jpg"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal2.jpg" alt="image" />
+                    <img src="home/blog3.jpg" alt="image" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="images/grid_gal3.jpg"
+                    href="home/banner.png"
                     className="kf-image-hover has-popup-image"
                   >
-                    <img src="images/grid_gal3.jpg" alt="image" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="images/grid_gal4.jpg"
-                    className="kf-image-hover has-popup-image"
-                  >
-                    <img src="images/grid_gal4.jpg" alt="image" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="images/grid_gal5.jpg"
-                    className="kf-image-hover has-popup-image"
-                  >
-                    <img src="images/grid_gal5.jpg" alt="image" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="images/grid_gal6.jpg"
-                    className="kf-image-hover has-popup-image"
-                  >
-                    <img src="images/grid_gal1.jpg" alt="image" />
+                    <img src="home/banner.png" alt="image" />
                   </a>
                 </li>
               </ul>

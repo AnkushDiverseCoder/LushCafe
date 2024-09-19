@@ -19,12 +19,8 @@ const MainSlider = () => {
                   Coffee House
                 </h2>
                 <div className="kf-bts">
-                  <Link href="menu-restaurant" className="kf-btn">
-                    <span>explore more</span>
-                    <i className="fas fa-chevron-right" />
-                  </Link>
-                  <Link href="reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
+                <Link href="offers" className="kf-btn">
+                    <span>Offers</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
@@ -36,7 +32,7 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(home/banner1.png)" }}
+              style={{ backgroundImage: "url(home/banner1.jpeg)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
@@ -47,12 +43,8 @@ const MainSlider = () => {
                   Coffee House
                 </h2>
                 <div className="kf-bts">
-                  <Link href="menu-coffee" className="kf-btn">
-                    <span>explore more</span>
-                    <i className="fas fa-chevron-right" />
-                  </Link>
-                  <Link href="reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
+                  <Link href="offers" className="kf-btn">
+                    <span>Offers</span>
                     <i className="fas fa-chevron-right" />
                   </Link>
                 </div>
