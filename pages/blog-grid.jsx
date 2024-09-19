@@ -38,172 +38,69 @@ const BlogGrid = () => {
             </h3>
           </div>
           <div className="kf-blog-grid-items row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="images/latest_blog1.jpg" alt="image" />
+                    <img src="home/blog1.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee makes you poop during the day because it affects your
-                    digestive
+                    A Culinary Journey Like No Other
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
                   </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/latest_blog2.jpg" alt="image" />
+                  <Link href="blog-single2">
+                    <img src="home/blog2.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    Coffee with added milk provides all the macro nutrients in
-                    good amounts
+                    White - themed Place Ambience
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
                   </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
               <div
                 className="kf-blog-grid-item element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/latest_blog3.jpg" alt="image" />
+                  <Link href="blog-single3">
+                    <img src="home/blog3.jpg" alt="image" />
                   </Link>
                 </div>
                 <div className="desc">
                   <h5 className="name">
-                    For most people, moderate coffee consumption can be
-                    incorporated
+                    Breathtaking Rooftop Views
                   </h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
                   </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-              <div
-                className="kf-blog-grid-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/history1.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <h5 className="name">
-                    Coffee makes you poop during the day because it affects your
-                    digestive
-                  </h5>
-                  <div className="kf-date">
-                    <i className="far fa-calendar-alt" />
-                    25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-              <div
-                className="kf-blog-grid-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/history2.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <h5 className="name">
-                    Coffee with added milk provides all the macro nutrients in
-                    good amounts
-                  </h5>
-                  <div className="kf-date">
-                    <i className="far fa-calendar-alt" />
-                    25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-              <div
-                className="kf-blog-grid-item element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image kf-image-hover">
-                  <Link href="blog-single">
-                    <img src="images/history3.jpg" alt="image" />
-                  </Link>
-                </div>
-                <div className="desc">
-                  <h5 className="name">
-                    For most people, moderate coffee consumption can be
-                    incorporated
-                  </h5>
-                  <div className="kf-date">
-                    <i className="far fa-calendar-alt" />
-                    25 Sep 2021
-                  </div>
-                  <div className="kf-comm">
-                    <i className="far fa-comments" />
-                    Comments (7)
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="align-center">
-            <a
-              href="#"
-              className="kf-btn element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <span>load more</span>
-              <i className="fas fa-chevron-right" />
-            </a>
           </div>
         </div>
       </section>
