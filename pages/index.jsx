@@ -59,7 +59,7 @@ const Index = () => {
                 className="kf-about-image element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <img src="images/about_img.png" alt="image" />
+                <img src="home/about.png" alt="image" className="rounded-lg"/>
               </div>
             </div>
           </div>
@@ -73,9 +73,6 @@ const Index = () => {
                 <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
                   <span className="block">This is a title for your call to action card</span>
                 </h2>
-                <p className="mt-4 text-base leading-6 text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                </p>
                 <p className="mt-4 text-base leading-6 text-dark-blue-800">
                 </p>
                 <Link href="reservation" className="kf-btn ">
@@ -84,7 +81,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative pb-3/5 -mt-6 md:pb-1/2">
-              <img className="absolute inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-10 lg:translate-y-20" src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw5fHxsYXB0b3B8ZW58MHwwfHx8MTY5NzQ0ODQ4M3ww&ixlib=rb-4.0.3&q=80&w=1080" />
+              <img className="absolute inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-10 lg:translate-y-20" src="home/aboutOffer.png" />
             </div>
           </div>
         </div>
@@ -294,109 +291,8 @@ const Index = () => {
           </div>
         </div>
       </section>
-      {/* Section Choose */}
-      <section className="section kf-choose section-bg">
-        <div className="container">
-          <div className="kf-parallax-icon pi-1" data-jarallax-element={-60}>
-            <div
-              className="p-icon"
-              style={{ backgroundImage: "url(images/parallax_icon1.png)" }}
-            />
-          </div>
-          <div className="kf-parallax-icon pi-2" data-jarallax-element={-80}>
-            <div
-              className="p-icon"
-              style={{ backgroundImage: "url(images/parallax_icon2.png)" }}
-            />
-          </div>
-          <div className="kf-parallax-icon pi-3" data-jarallax-element={-40}>
-            <div
-              className="p-icon"
-              style={{ backgroundImage: "url(images/parallax_icon3.png)" }}
-            />
-          </div>
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-              <div
-                className="kf-choose-image element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <img src="images/choose_img.jpg" alt="image" />
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 align-self-center">
-              <div className="kf-titles">
-                <div
-                  className="kf-subtitle element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  Why Choose Us
-                </div>
-                <h3
-                  className="kf-title element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  New London Coffee Founded For Extraordinary Test
-                </h3>
-              </div>
-              <div
-                className="kf-text element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae abillo inventore veritatis
-                </p>
-              </div>
-              <div className="kf-choose-list">
-                <ul>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon1.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">Natural Coffee Beans</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
-                      </div>
-                    </div>
-                  </li>
-                  <li
-                    className="element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <img src="images/choose_icon2.png" alt="image" />
-                    </div>
-                    <div className="desc">
-                      <h5 className="name">100% ISO Certification</h5>
-                      <div className="subname">
-                        Sed ut perspiciatis unde omnis iste natus error
-                        voluptate accusantium doloremque
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <Link
-                href="about"
-                className="kf-btn element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <span>explore more</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Section Grid Carousel */}
-      <section className="section kf-grid-carousel">
+      <section className="section kf-grid-carousel section-bg">
         <div className="container">
           <Swiper {...sliderProps.kfGridCarousel} className="swiper-container">
             <SwiperSlide className="swiper-slide">
@@ -682,20 +578,10 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="align-center">
-            <Link
-              href="blog-grid"
-              className="kf-btn element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <span>view all</span>
-              <i className="fas fa-chevron-right" />
-            </Link>
-          </div>
         </div>
       </section>
       {/* Section CTA */}
-      <section
+      {/* <section
         className="section kf-cta kf-parallax"
         style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
       >
@@ -729,7 +615,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layouts>
   );
 };

@@ -16,12 +16,6 @@ const Header = () => {
     }
   }, [toggle]);
 
-  const [activeMenu, setActiveMenu] = useState("");
-  const activeMenuSet = (value) =>
-      setActiveMenu(activeMenu === value ? "" : value),
-    activeLi = (value) =>
-      value === activeMenu ? { display: "block" } : { display: "none" };
-
   return (
     <header className={`kf-header ${toggle ? "animated" : ""}`}>
       {/* topline */}
@@ -82,56 +76,13 @@ const Header = () => {
                 <li>
                   <Link href="menu-coffee">
                     Menu
-                    <i className="las la-angle-down" />
                   </Link>
-                  <ul>
-                    <li>
-                      <Link href="menu-coffee">Menu Coffee</Link>
-                    </li>
-                    <li>
-                      <Link href="menu-restaurant">Menu Restaurant</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li>
-                  <a href="services">
-                    Services
-                    <i className="las la-angle-down" />
-                  </a>
-                  <ul>
-                    {/* <li>
-                      <Link href="services">Service</Link>
-                    </li> */}
-                    <li>
-                      <Link href="reservation">Reservation</Link>
-                    </li>
-                    <li>
-                      <Link href="history">History</Link>
-                    </li>
-                    <li>
-                      <Link href="team">Our Chefs</Link>
-                    </li>
-                    <li>
-                      <Link href="gallery">Gallery</Link>
-                    </li>
-                    <li>
-                      <Link href="faq">FAQ</Link>
-                    </li>
-                  </ul>
+                  <Link href="gallery">Gallery</Link>
                 </li>
                 <li>
-                  <a href="#">
-                    Blog
-                    <i className="las la-angle-down" />
-                  </a>
-                  <ul>
-                    <li>
-                      <Link href="blog-grid">Blog Grid</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-single">Blog Single</Link>
-                    </li>
-                  </ul>
+                <Link href="blog-grid">Blog</Link>
                 </li>
                 <li>
                   <Link href="contacts">Contacts</Link>
@@ -162,89 +113,33 @@ const Header = () => {
       <div className="kf-navbar-mobile">
         {/* mobile menu */}
         <div className="kf-main-menu">
-          <ul>
-            <li className="has-children">
-              <Link href="/">Home</Link>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("home")}
-              />
-              <ul style={activeLi("home")}>
+        <ul>
                 <li>
-                  <Link href="/">Coffee House</Link>
+                  <Link href="/">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link href="index-2">Restaurant</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link href="about">About</Link>
-            </li>
-            <li className="has-children">
-              <Link href="menu-coffee">Menu</Link>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("Menu")}
-              />
-              <ul style={activeLi("Menu")}>
-                <li>
-                  <Link href="menu-coffee">Menu Coffee</Link>
+                  <Link href="about">About</Link>
                 </li>
                 <li>
-                  <Link href="menu-restaurant">Menu Restaurant</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="has-children">
-              <a href="#">Pages</a>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("Pages")}
-              />
-              <ul style={activeLi("Pages")}>
-                <li>
-                  <Link href="services">Service</Link>
-                </li>
-                <li>
-                  <Link href="reservation">Reservation</Link>
-                </li>
-                <li>
-                  <Link href="history">History</Link>
-                </li>
-                <li>
-                  <Link href="team">Our Chefs</Link>
+                  <Link href="menu-coffee">
+                    Menu
+                  </Link>
                 </li>
                 <li>
                   <Link href="gallery">Gallery</Link>
                 </li>
                 <li>
-                  <Link href="faq">FAQ</Link>
+                <Link href="blog-grid">Blog</Link>
+                </li>
+                <li>
+                  <Link href="contacts">Contacts</Link>
+                </li>
+                <li>
+                  <Link href="offers">Offers</Link>
                 </li>
               </ul>
-            </li>
-            <li className="has-children">
-              <a href="#">Blog</a>
-              <i
-                className="las la-angle-down"
-                onClick={() => activeMenuSet("Blog")}
-              />
-              <ul style={activeLi("Blog")}>
-                <li>
-                  <Link href="blog-grid">Blog Grid</Link>
-                </li>
-                <li>
-                  <Link href="blog">Blog Standard</Link>
-                </li>
-                <li>
-                  <Link href="blog-single">Blog Single</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link href="contacts">Contacts</Link>
-            </li>
-          </ul>
         </div>
         {/* mobile topline */}
         <div className="kf-topline">
@@ -283,8 +178,7 @@ const Header = () => {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               {/* location */}
               <div className="kf-h-group">
-                <i className="fas fa-map-marker-alt" /> <em>Location :</em> 55
-                main street, new york
+                <i className="fas fa-map-marker-alt" /> <em>Location :</em> Doctor's Colony Rd, Kavuri Hills, Madhapur, Hyderabad
               </div>
             </div>
           </div>

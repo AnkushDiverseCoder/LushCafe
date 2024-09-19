@@ -1,5 +1,4 @@
 import VideoPlayer from "@/src/components/VideoPlayer";
-import { RevealBento } from "@/src/components/sliders/RevealBento";
 import TestimonialsCarousel from "@/src/components/sliders/TestimonialsCarousel";
 import Layouts from "@/src/layouts/Layouts";
 import Link from "next/link";
@@ -24,7 +23,6 @@ const About = () => {
         </div>
       </section>
       {/* Section About-2 */}
-      <RevealBento/>
       <section className="section kf-choose kf-choose-2">
         <div className="relative p-8 bg-transparent first:mt-0">
           <div className="absolute inset-0">
@@ -112,73 +110,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* Section Numbers-2 */}
-      <section className="section kf-numbers-2 section-bg">
-        <div className="container">
-          <div className="kf-numbers-items-2 row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-numbers-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="icon">
-                  <i className="las la-gem" />
-                </div>
-                <div className="num">256+</div>
-                <div className="desc">
-                  <h5 className="name">Premium Clients</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-numbers-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="icon">
-                  <i className="las la-user-tie" />
-                </div>
-                <div className="num">36+</div>
-                <div className="desc">
-                  <h5 className="name">Professional Chefs</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-numbers-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="icon">
-                  <i className="las la-trophy" />
-                </div>
-                <div className="num">753+</div>
-                <div className="desc">
-                  <h5 className="name">Winning Awards</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-numbers-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="icon">
-                  <i className="lar la-grin-stars" />
-                </div>
-                <div className="num">100+</div>
-                <div className="desc">
-                  <h5 className="name">5 Star Reviews</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Section Video */}
       <section className="section kf-video">
         <div className="container">
@@ -186,69 +117,6 @@ const About = () => {
             videoBg={"images/video_bg.jpg"}
             extraClass={"kf-image-hover"}
           />
-        </div>
-      </section>
-      {/* Section Services-2 */}
-      <section className="section kf-services">
-        <div className="container">
-          <div className="kf-services-items-2 row">
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon1.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Birthday Cakes</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon2.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Fresh Foods</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon3.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Skills Chefs</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-              <div
-                className="kf-services-item-2 element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <div className="image">
-                  <img src="images/service_icon4.png" alt="image" />
-                </div>
-                <div className="desc">
-                  <h5 className="name">Organic Juice</h5>
-                  <div className="subname">Sed ut perspiciatis unde</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
       {/* Section Team */}
@@ -469,42 +337,6 @@ const About = () => {
       </section>
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
-      {/* Section CTA */}
-      <section
-        className="section kf-cta kf-parallax"
-        style={{ backgroundImage: "url(images/cta_bg.jpg)" }}
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-              <div className="kf-titles">
-                <div
-                  className="kf-subtitle element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  Need a Table On Coffee House
-                </div>
-                <h3
-                  className="kf-title element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  Booking Table For Your &amp; Family Members
-                </h3>
-              </div>
-            </div>
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
-              <Link
-                href="reservation"
-                className="kf-btn element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <span>booking table</span>
-                <i className="fas fa-chevron-right" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layouts>
   );
 };

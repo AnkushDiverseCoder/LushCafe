@@ -1,6 +1,7 @@
 import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Sales from "../popup/Sales";
 const MainSlider = () => {
   return (
     <section className="section kf-started-slider">
@@ -60,36 +61,10 @@ const MainSlider = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">
-          <div className="kf-started-item">
-            <div
-              className="slide js-parallax"
-              style={{ backgroundImage: "url(home/banner2.png)" }}
-            />
-            <div className="container">
-              <div className="description align-left">
-                <div className="subtitles">Welcome to the Lush Cafe | By the lake</div>
-                <h2 className="name text-anim-1" data-splitting="chars">
-                  Great Coffee <br />
-                  Good Vibes
-                </h2>
-                <div className="kf-bts">
-                  <Link href="menu-coffee" className="kf-btn">
-                    <span>explore more</span>
-                    <i className="fas fa-chevron-right" />
-                  </Link>
-                  <Link href="reservation" className="kf-btn dark-btn">
-                    <span>get delivery</span>
-                    <i className="fas fa-chevron-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
         <div className="mainSlider-prev swiper-button-prev" />
         <div className="mainSlider-next swiper-button-next" />
       </Swiper>
+      <Sales/>
     </section>
   );
 };

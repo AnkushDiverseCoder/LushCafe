@@ -6,11 +6,11 @@ const Footer = () => {
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             {/* logo */}
             <div
-              className="kf-logo element-anim-1 scroll-animate"
+              className=""
               data-animate="active"
             >
               <a href="index.html">
-                <img src="images/logo.png" alt="image" />
+                <img src="Logo/logo.svg" alt="image" className="h-full"/>
               </a>
             </div>
           </div>
@@ -129,7 +129,7 @@ const Footer = () => {
               className="kf-copyright element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Copyright © 2022 Kaffen. All Rights Reserved.
+              Copyright © 2024 Lush Cafe. All Rights Reserved.
             </div>
           </div>
         </div>
