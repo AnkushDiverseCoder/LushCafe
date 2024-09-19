@@ -310,7 +310,7 @@ const Index = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog-single2">
                     <img src="home/blog2.jpg" alt="image" />
                   </Link>
                 </div>
@@ -331,7 +331,7 @@ const Index = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single">
+                  <Link href="blog-single3">
                     <img src="home/blog3.jpg" alt="image" />
                   </Link>
                 </div>
