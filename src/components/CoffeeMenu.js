@@ -42,601 +42,610 @@ const CoffeeMenu = () => {
       }
     });
   };
-  
-  const bachelors = [
+
+  const salad = [
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Butterscotch",
+      className: "salad",
+      imageSrc: "/menu/salad/GreekSalasdVeg.webp ",
+      name: "Greek Salad (Veg)",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Dark Chocolate",
+      className: "salad",
+      imageSrc: "/menu/salad/GreekSalasdNonVeg.webp ",
+      name: "Greek Salad (Non-Veg)",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Hazelnut",
+      className: "salad",
+      imageSrc: "/menu/salad/EggAndGreens.webp ",
+      name: "Egg And Greens",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Nutella",
+      className: "salad",
+      imageSrc: "/menu/salad/CobbSalad.webp ",
+      name: "Cobb Salad (Veg)",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Brownie",
+      className: "salad",
+      imageSrc: "/menu/salad/CobbSaladChicken.webp ",
+      name: "Cobb Salad (Non-Veg)",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Red Velvet",
+      className: "salad",
+      imageSrc: "/menu/salad/ChickenCaesar.webp ",
+      name: "Caesar Salad (Chicken)",
       subname: "",
       price: "349",
     },
     {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "White Chocolate",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Mango",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Blueberry",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Popcorn",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "bachelors",
-      imageSrc: "images/bachelors.jpg",
-      name: "Kit Kat",
+      className: "salad",
+      imageSrc: "/menu/salad/Caesar.webp ",
+      name: "Caesar Salad (Veg)",
       subname: "",
       price: "349",
     },
   ];
-  
-  const couples = [
+
+  const sandwich = [
     {
-      className: "couples",
-      imageSrc: "images/couples.jpg",
-      name: "Popcorn Pineapple",
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/BbqChickenSandwich.webp",
+      name: "Bbq Chicken Sandwich",
       subname: "Popcorn Syrup, Pineapple Crush, Ice-cream and Milk",
       price: "349",
     },
     {
-      className: "couples",
-      imageSrc: "images/couples.jpg",
-      name: "Peanut Butter Oreo",
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/SpicyCilentroChickenSandwich.webp",
+      name: "Spicy Cilentro Chicken Sandwich  ",
       subname: "Oreo Biscuit, Ice-cream, Peanut Butter and Milk",
       price: "349",
     },
     {
-      className: "couples",
-      imageSrc: "images/couples.jpg",
-      name: "Bancoffee",
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/BbqPaneerSandwich.webp",
+      name: "Bbq Paneer Sandwich",
       subname: "Banana, Expresso, Ice-cream and Milk",
       price: "349",
     },
     {
-      className: "couples",
-      imageSrc: "images/couples.jpg",
-      name: "Blueberry White Chocolate",
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/PeriPeriPaneerSandwich.webp",
+      name: "Peri Peri Paneer Sandwich",
+      subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
+      price: "349",
+    },
+    {
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/SpicedEggSandwich.webp",
+      name: "Spiced Egg Sandwich",
+      subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
+      price: "349",
+    },
+    {
+      className: "sandwich",
+      imageSrc: "/menu/sandwich/GrilledVegAndPestoSandwich.webp",
+      name: "Grilled Veg And Pesto Sandwich",
       subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
       price: "349",
     },
   ];
-  const lushSignatureDrinks = [
+  // const lushSignatureDrinks = [
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Bamboleo",
+  //     subname: "Passion Fruit Syrup, Coconut Syrup, Milk",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Cocumint Cooler",
+  //     subname: "Fresh coconut with the touch of cucumber and mint",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Ping Pong",
+  //     subname: "Pomegranate, Raspberry, Cranberry",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "The Paradise",
+  //     subname: "Strawberry & Passion Fruit Syrup, Orange and Pineapple Juice",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Ee Sala Cup Namde",
+  //     subname: "Orange Chunks, Basil leaves, Peach Syrup, Orange Juice",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Saffron Cream",
+  //     subname: "Saffron Syrup, Amul Cream, Orange Juice",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "lushSignatureDrinks",
+  //     imageSrc: "images/lushSignatureDrinks.jpg",
+  //     name: "Kick The Kiwi",
+  //     subname: "Green Apple, Kiwi Fruit, Lemon, Mint, Triple Sec, Ice-Cubes, Sprite",
+  //     price: "349",
+  //   },
+  // ];
+
+  // const hotbeverages = [
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Cappuccino",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Americano",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Americano Orange",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Caffe Latte",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Latte Mocha",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Latte Macchiato",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Espresso Macchiato",
+  //     subname: "",
+  //     price: "",
+  //   },
+  //   {
+  //     className: "hotbeverages",
+  //     imageSrc: "images/hotbeverages.jpg",
+  //     name: "Hot chocolate",
+  //     subname: "",
+  //     price: "",
+  //   },
+  // ];
+
+  // const coldBeverages = [
+  //   {
+  //     className: "coldBeverages",
+  //     imageSrc: "images/coldBeverages.jpg",
+  //     name: "Coffee Frappe",
+  //     subname: "Milk, Ice Cubes, Espresso, Chocolate Sauce",
+  //     price: "249",
+  //   },
+  //   {
+  //     className: "coldBeverages",
+  //     imageSrc: "images/coldBeverages.jpg",
+  //     name: "Coffee Velvet",
+  //     subname: "Milk, Ice Cubes, Espresso, Sponge Velvet, Cream",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "coldBeverages",
+  //     imageSrc: "images/coldBeverages.jpg",
+  //     name: "Iced Caffee Latte",
+  //     subname: "Milk, Ice Cubes, Espresso, Chocolate Sauce",
+  //     price: "349",
+  //   },
+  // ];
+
+  // const mainCourse = [
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Peri Peri Paneer Steak",
+  //     subname: "vegetables on the side.",
+  //     price: "449",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Cauliflower Steak",
+  //     subname: "",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Veg Delight Rice",
+  //     subname: "",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Panneer Delight Rice",
+  //     subname: "",
+  //     price: "429",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Chicken Stroganoff",
+  //     subname: "",
+  //     price: "449",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Chicken Steak Rice",
+  //     subname: "",
+  //     price: "449",
+  //   },
+  //   {
+  //     className: "mainCourse",
+  //     imageSrc: "images/mainCourse.jpg",
+  //     name: "Teco Lane Prawns",
+  //     subname: "",
+  //     price: "449",
+  //   },
+  // ];
+
+  // const riceBowls = [
+  //   {
+  //     className: "riceBowls",
+  //     imageSrc: "images/riceBowls.jpg",
+  //     name: "Turmaric Garlic Fried Rice With Chilly Paneer",
+  //     subname: "",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "riceBowls",
+  //     imageSrc: "images/riceBowls.jpg",
+  //     name: "Mushroom Stroganoff",
+  //     subname: "",
+  //     price: "309",
+  //   },
+  //   {
+  //     className: "riceBowls",
+  //     imageSrc: "images/riceBowls.jpg",
+  //     name: "Paneer Stroganoff",
+  //     subname: "",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "riceBowls",
+  //     imageSrc: "images/riceBowls.jpg",
+  //     name: "Turmaric Garlic Fried Rice With Chicken",
+  //     subname: "",
+  //     price: "469",
+  //   },
+  // ];
+
+  const ItalianThinCrustPizzas = [
     {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Bamboleo",
-      subname: "Passion Fruit Syrup, Coconut Syrup, Milk",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Cocumint Cooler",
-      subname: "Fresh coconut with the touch of cucumber and mint",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Ping Pong",
-      subname: "Pomegranate, Raspberry, Cranberry",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "The Paradise",
-      subname: "Strawberry & Passion Fruit Syrup, Orange and Pineapple Juice",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Ee Sala Cup Namde",
-      subname: "Orange Chunks, Basil leaves, Peach Syrup, Orange Juice",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Saffron Cream",
-      subname: "Saffron Syrup, Amul Cream, Orange Juice",
-      price: "349",
-    },
-    {
-      className: "lushSignatureDrinks",
-      imageSrc: "images/lushSignatureDrinks.jpg",
-      name: "Kick The Kiwi",
-      subname: "Green Apple, Kiwi Fruit, Lemon, Mint, Triple Sec, Ice-Cubes, Sprite",
-      price: "349",
-    },
-  ];
-  
-  const hotbeverages = [
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Cappuccino",
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/CajunChickenPizza.webp",
+      name: "Cajun Chicken Pizza",
       subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Americano",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Americano Orange",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Caffe Latte",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Latte Mocha",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Latte Macchiato",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Espresso Macchiato",
-      subname: "",
-      price: "",
-    },
-    {
-      className: "hotbeverages",
-      imageSrc: "images/hotbeverages.jpg",
-      name: "Hot chocolate",
-      subname: "",
-      price : "",
-    },
-  ];
-  
-  const coldBeverages = [
-    {
-      className: "coldBeverages",
-      imageSrc: "images/coldBeverages.jpg",
-      name: "Coffee Frappe",
-      subname: "Milk, Ice Cubes, Espresso, Chocolate Sauce",
-      price: "249",
-    },
-    {
-      className: "coldBeverages",
-      imageSrc: "images/coldBeverages.jpg",
-      name: "Coffee Velvet",
-      subname: "Milk, Ice Cubes, Espresso, Sponge Velvet, Cream",
       price: "399",
     },
     {
-      className: "coldBeverages",
-      imageSrc: "images/coldBeverages.jpg",
-      name: "Iced Caffee Latte",
-      subname: "Milk, Ice Cubes, Espresso, Chocolate Sauce",
-      price: "349",
-    },
-  ];
-  
-  const mainCourse = [
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Peri Peri Paneer Steak",
-      subname: "vegetables on the side.",
-      price: "449",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Cauliflower Steak",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Veg Delight Rice",
-      subname: "",
-      price: "349",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Panneer Delight Rice",
-      subname: "",
-      price: "429",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Chicken Stroganoff",
-      subname: "",
-      price: "449",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Chicken Steak Rice",
-      subname: "",
-      price: "449",
-    },
-    {
-      className: "mainCourse",
-      imageSrc: "images/mainCourse.jpg",
-      name: "Teco Lane Prawns",
-      subname: "",
-      price: "449",
-    },
-  ];
-  
-  const riceBowls = [
-    {
-      className: "riceBowls",
-      imageSrc: "images/riceBowls.jpg",
-      name: "Turmaric Garlic Fried Rice With Chilly Paneer",
-      subname: "",
-      price: "399",
-    },
-    {
-      className: "riceBowls",
-      imageSrc: "images/riceBowls.jpg",
-      name: "Mushroom Stroganoff",
-      subname: "",
-      price: "309",
-    },
-    {
-      className: "riceBowls",
-      imageSrc: "images/riceBowls.jpg",
-      name: "Paneer Stroganoff",
-      subname: "",
-      price: "399",
-    },
-    {
-      className: "riceBowls",
-      imageSrc: "images/riceBowls.jpg",
-      name: "Turmaric Garlic Fried Rice With Chicken",
-      subname: "",
-      price: "469",
-    },
-  ];
-  
-  const grillFish = [
-    {
-      className: "grillFish",
-      imageSrc: "images/grillFish.jpg",
-      name: "Chermoula Chicken Steak With Espagnole Sauce",
-      subname: "",
-      price: "399",
-    },
-    {
-      className: "grillFish",
-      imageSrc: "images/grillFish.jpg",
-      name: "Cilentro Baked Fish With Orange Butter Sauce",
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/peporonipizza.webp",
+      name: "peporoni pizza",
       subname: "",
       price: "439",
     },
     {
-      className: "grillFish",
-      imageSrc: "images/grillFish.jpg",
-      name: "Prawns In White Lemon Butter Sauce",
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/paneerpperiperipizza.webp",
+      name: "paneer pperi peri pizza",
       subname: "",
       price: "529",
     },
     {
-      className: "grillFish",
-      imageSrc: "images/grillFish.jpg",
-      name: "Grill Fish (Lemon Butter Garlic Sauce)",
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/chickensausage.webp",
+      name: "chicken sausage",
+      subname: "",
+      price: "469",
+    },
+    {
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/periperichicken.webp",
+      name: "peri peri chicken",
+      subname: "",
+      price: "469",
+    },
+    {
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/VegMexicanaPizza.webp",
+      name: "Veg Mexicana Pizza",
+      subname: "",
+      price: "469",
+    },
+    {
+      className: "ItalianThinCrustPizzas",
+      imageSrc: "/menu/ItalianThinCrustPizzas/SeaFoodPizza.webp",
+      name: "Sea Food Pizza",
       subname: "",
       price: "469",
     },
   ];
-  
-  const lemanades = [
+
+  const mains = [
     {
-      className: "lemanades",
-      imageSrc: "images/lemanades.jpg",
-      name: "Masala",
+      className: "mains",
+      imageSrc: "/menu/main/PeriPeriChickenSteak.webp",
+      name: "Peri Peri Chicken Steak",
       subname: "Masala Powder, Lemon Syrup, Ice Cubes",
       price: "129",
     },
     {
-      className: "lemanades",
-      imageSrc: "images/lemanades.jpg",
-      name: "Sweet",
+      className: "mains",
+      imageSrc: "/menu/main/CilantroCottageCheeseSteak.webp",
+      name: "Cilantro Cottage Cheese Steak",
       subname: "Sugar Syrup, Lemon Syrup, Ice Cubes",
       price: "119",
     },
     {
-      className: "lemanades",
-      imageSrc: "images/lemanades.jpg",
-      name: "Salt",
+      className: "mains",
+      imageSrc: "/menu/main/CajunCottageCheeseSteak.webp",
+      name: "Cajun Cottage Cheese Steak",
       subname: "Lemon Syrup, Ice Cubes, Salt",
       price: "119",
     },
-    {
-      className: "lemanades",
-      imageSrc: "images/lemanades.jpg",
-      name: "Lemonade Mixture",
-      subname: "Lemon, Sugar Syrup, Soda",
-      price: "119",
-    },
   ];
-  
-  const smoothies = [
+
+  const riceBowl = [
     {
-      className: "smoothies",
-      imageSrc: "images/smoothies.jpg",
-      name: "Avocado Smoothie",
-      subname: "Avocado, Ice-cream and Curd",
-      price: "349",
-    },
-    {
-      className: "smoothies",
-      imageSrc: "images/smoothies.jpg",
-      name: "Blueberry Smoothie",
-      subname: "Blueberry, Ice-cream and Curd",
-      price: "299",
-    },
-    {
-      className: "smoothies",
-      imageSrc: "images/smoothies.jpg",
-      name: "Strawberry Smoothie",
-      subname: "Avocado, Ice-cream and Curd",
-      price: "349",
-    },
-  ];
-  
-  const mocktails = [
-    {
-      className: "mocktails",
-      imageSrc: "images/mocktails.jpg",
-      name: "Virgin Mojito",
-      subname: "Mint Syrup, Mint Leaves, Lemon Wedges, Ice Cubes",
-      price: "249",
-    },
-    {
-      className: "mocktails",
-      imageSrc: "images/mocktails.jpg",
-      name: "Blue Curacao",
-      subname: "Blue Curacao, Mint Leaves, Lemon Wedges, Ice Cubes",
-      price: "299",
-    },
-    {
-      className: "mocktails",
-      imageSrc: "images/mocktails.jpg",
-      name: "Strawberry Mojito",
-      subname: "Strawberry Crush, Mint Leaves, Lemon Wedges, Ice Cubes",
-      price: "349",
-    },
-    {
-      className: "mocktails",
-      imageSrc: "images/mocktails.jpg",
-      name: "Peach",
-      subname: "Peach, Mint Leaves, Lemon Wedges, Ice Cubes",
-      price: "299",
-    },
-    {
-      className: "mocktails",
-      imageSrc: "images/mocktails.jpg",
-      name: "Mango",
-      subname: "Mango Crush, Mint Leaves, Lemon Wedges, Ice Cubes",
-      price: "349",
-    },
-  ];
-  
-  const pastas = [
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Spaghetti Pomodoro",
-      subname: "Mixed in pasta sauce and fresh basil served with garlic bread on side.",
-      price: "399",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Spaghetti Aglio e Olio",
-      subname: "Mixed in dry garlic, dry herbs, chilli flakes, tomato and olives.",
-      price: "419",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Mac and Cheese",
-      subname: "Macaroni mixed in bechamel sauce, cheddar, parmesan cheese",
-      price: "399",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Veg Penne Alfredo",
-      subname: "A classic favorite creamy white sauce, Penne Pasta mixed with blanched exotic Vegetables like Broccoli, Zucchini, Bell Pepper, Black Olives",
-      price: "389",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Chicken Penne Pasta",
-      subname: "Alfredo Cream Sauce.Mix Sauce.Red Sauce.",
-      price: "449",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Crispy Chicken Pasta",
+      className: "riceBowl",
+      imageSrc: "/menu/riceBowl/EggAkooriRiceBowl.webp",
+      name: "Egg Akoori Rice Bowl.",
       subname: "",
-      price: "469",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Chicken Pasta Macro",
-      subname: "Alfredo Cream Sauce and Mix Sauce (With Pink Sauce)",
-      price: "449",
-    },
-    {
-      className: "pastas",
-      imageSrc: "images/pastas.jpg",
-      name: "Spaghette Pasta Chicken",
-      subname: "Honey sweetened chicken, chilli sauce, marmalade and green onion",
-      price: "449",
-    },
-  ];
-  
-  const burgers = [
-    {
-      className: "burgers",
-      imageSrc: "images/burgers.jpg",
-      name: "Vegetable Patty Burger",
-      subname: "Spiced vegetables with masala paneer in a patty on a burger bun.",
       price: "349",
     },
     {
-      className: "burgers",
-      imageSrc: "images/burgers.jpg",
-      name: "Paneer Crispy Burger",
-      subname: "Grilled paneer topped with sour cream.",
-      price: "399",
+      className: "riceBowl",
+      imageSrc: "/menu/riceBowl/BurntgarlicShrimpFriedRice.webp",
+      name: "Burnt garlic Shrimp Fried Rice.",
+      subname: "",
+      price: "299",
     },
     {
-      className: "burgers",
-      imageSrc: "images/burgers.jpg",
-      name: "Grilled Chicken Salsa Burger",
-      subname: "Chicken breasts pan-fried and topped with tomato salsa, sour cream",
-      price: "399",
+      className: "riceBowl",
+      imageSrc: "/menu/riceBowl/BurntgarlicChickenFriedRice.webp",
+      name: "Burnt garlic Chicken Fried Rice.",
+      subname: "",
+      price: "349",
     },
     {
-      className: "burgers",
-      imageSrc: "images/burgers.jpg",
-      name: "Schnitzel and Cheese Chicken Burger",
-      subname: "Schnitzel of crumbed chicken breast in a toasted burger with cheese",
-      price: "399",
-   },
+      className: "riceBowl",
+      imageSrc: "/menu/riceBowl/BurntgarlicFriedRice.webp",
+      name: "Burnt garlic Fried Rice.",
+      subname: "",
+      price: "349",
+    },
   ];
-  
+
+  // const mocktails = [
+  //   {
+  //     className: "mocktails",
+  //     imageSrc: "images/mocktails.jpg",
+  //     name: "Virgin Mojito",
+  //     subname: "Mint Syrup, Mint Leaves, Lemon Wedges, Ice Cubes",
+  //     price: "249",
+  //   },
+  //   {
+  //     className: "mocktails",
+  //     imageSrc: "images/mocktails.jpg",
+  //     name: "Blue Curacao",
+  //     subname: "Blue Curacao, Mint Leaves, Lemon Wedges, Ice Cubes",
+  //     price: "299",
+  //   },
+  //   {
+  //     className: "mocktails",
+  //     imageSrc: "images/mocktails.jpg",
+  //     name: "Strawberry Mojito",
+  //     subname: "Strawberry Crush, Mint Leaves, Lemon Wedges, Ice Cubes",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "mocktails",
+  //     imageSrc: "images/mocktails.jpg",
+  //     name: "Peach",
+  //     subname: "Peach, Mint Leaves, Lemon Wedges, Ice Cubes",
+  //     price: "299",
+  //   },
+  //   {
+  //     className: "mocktails",
+  //     imageSrc: "images/mocktails.jpg",
+  //     name: "Mango",
+  //     subname: "Mango Crush, Mint Leaves, Lemon Wedges, Ice Cubes",
+  //     price: "349",
+  //   },
+  // ];
+
+  // const pastas = [
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/SpaghettiAglioEOlioWithChicken.webp",
+  //     name: "Spaghetti Aglio E Olio With Chicken",
+  //     subname: "Mixed in pasta sauce and fresh basil served with garlic bread on side.",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/SpaghettiAglioEOlio.webp",
+  //     name: "Spaghetti Aglio e Olio",
+  //     subname: "Mixed in dry garlic, dry herbs, chilli flakes, tomato and olives.",
+  //     price: "419",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/CubanMacAndCheese.webp",
+  //     name: "Cuban Mac And Cheese",
+  //     subname: "Macaroni mixed in bechamel sauce, cheddar, parmesan cheese",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/SpaghettiPomodoroWithChicken.webp",
+  //     name: "Spaghetti Pomodoro With Chicken",
+  //     subname: "A classic favorite creamy white sauce, Penne Pasta mixed with blanched exotic Vegetables like Broccoli, Zucchini, Bell Pepper, Black Olives",
+  //     price: "389",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/SpaghettiPomodoro.webp",
+  //     name: "Spaghetti Pomodoro",
+  //     subname: "Alfredo Cream Sauce.Mix Sauce.Red Sauce.",
+  //     price: "449",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/PenneAlaVodka.webp",
+  //     name: "Penne Ala Vodka",
+  //     subname: "",
+  //     price: "469",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/pennealfradowhitepasta.webp",
+  //     name: "penne alfrado white pasta",
+  //     subname: "Alfredo Cream Sauce and Mix Sauce (With Pink Sauce)",
+  //     price: "449",
+  //   },
+  //   {
+  //     className: "pastas",
+  //     imageSrc: "/menu/pasta/pennealfradochicken.webp",
+  //     name: "penne alfrado chicken",
+  //     subname: "Honey sweetened chicken, chilli sauce, marmalade and green onion",
+  //     price: "449",
+  //   },
+  // ];
+
+  // const burgers = [
+  //   {
+  //     className: "burgers",
+  //     imageSrc: "images/burgers.jpg",
+  //     name: "Vegetable Patty Burger",
+  //     subname: "Spiced vegetables with masala paneer in a patty on a burger bun.",
+  //     price: "349",
+  //   },
+  //   {
+  //     className: "burgers",
+  //     imageSrc: "images/burgers.jpg",
+  //     name: "Paneer Crispy Burger",
+  //     subname: "Grilled paneer topped with sour cream.",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "burgers",
+  //     imageSrc: "images/burgers.jpg",
+  //     name: "Grilled Chicken Salsa Burger",
+  //     subname: "Chicken breasts pan-fried and topped with tomato salsa, sour cream",
+  //     price: "399",
+  //   },
+  //   {
+  //     className: "burgers",
+  //     imageSrc: "images/burgers.jpg",
+  //     name: "Schnitzel and Cheese Chicken Burger",
+  //     subname: "Schnitzel of crumbed chicken breast in a toasted burger with cheese",
+  //     price: "399",
+  //   },
+  // ];
+  const soup = [
+    {
+      className: "soup",
+      imageSrc: "/menu/soup/greenSoupChicken.webp",
+      name: "green Consume Chicken",
+      subname: "",
+      price: "349",
+    },
+  ];
+
   const appetizersVeg = [
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Overload Nachos",
-      subname: "Tortilla chips or totopos covered with cheese or cheese sauce as well as a variety of other toppings and garnishes.",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/crumbfriedcottagecheesefinger.webp",
+      name: "crumb fried cottage cheese finger",
+      subname: "",
       price: "349",
     },
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Orange Chilli Mushroom (Chef Special)",
-      subname: "Indo-Chinese appetizer of mushroom tossed in orange sauce, spicy and slightly tangy chilli sauce.",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/CottageCheesePotatoCroquettes.webp",
+      name: "Cottage Cheese Potato Croquettes",
+      subname: "",
       price: "349",
     },
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Potato Cheese Shortz",
-      subname: "Potatoes and herbs stuffed with the gooiest cheese and coated in crunchy golden crumbs and served with sauce.",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/NachosReloaded.webp",
+      name: "Nachos Reloaded",
+      subname: "",
       price: "399",
     },
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Crispy Onion Rings",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/CheeseGarlicBread.webp",
+      name: "Cheese Garlic Bread ",
       subname: "",
       price: "249",
     },
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Cheese Fingers",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/southernspicyChickenWings.webp",
+      name: "southern spicy Chicken Wings",
       subname: "",
-      price: "399",
+      price: "249",
     },
     {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Golden Babycorn",
-      subname: "Corn tossed in a sweet and spicy sauce for delightfully flavorful, crunchy dish.",
-      price: "349",
-    },
-    {
-      className: "appetizers-veg",
-      imageSrc: "images/appetizers-veg.jpg",
-      name: "Paneer Majestic",
-      subname: "Fresh Indian cottage Cheese strips, tossed in spicy yogurt based sauce, green chilies, curry leaves to enhance the flavor",
-      price: "399",
+      className: "appetizersVeg",
+      imageSrc: "/menu/appetizer/NachosReloadedchicken.webp",
+      name: "Nachos Reloaded chicken",
+      subname: "",
+      price: "249",
     },
   ];
-  
+
   return (
     <section className="section kf-menu kf-menu-tabs">
       <div className="container">
@@ -667,19 +676,19 @@ const CoffeeMenu = () => {
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("bachelors")}
-            data-href="bachelors"
+            onClick={handleFilterKeyChange("salad")}
+            data-href="salad"
           >
-            Bachelors
+            Salad
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("couples")}
-            data-href="couples"
+            onClick={handleFilterKeyChange("sandwich")}
+            data-href="sandwich"
           >
-            Couples
+            Sandwich
           </a>
-          <a
+          {/* <a
             className="c-pointer"
             onClick={handleFilterKeyChange("lushSignatureDrinks")}
             data-href="lushSignatureDrinks"
@@ -713,27 +722,34 @@ const CoffeeMenu = () => {
             data-href="riceBowls"
           >
             Rice Bowls
+          </a> */}
+          <a
+            className="c-pointer"
+            onClick={handleFilterKeyChange("ItalianThinCrustPizzas")}
+            data-href="ItalianThinCrustPizzas"
+          >
+            Italian Thin Crust Pizzas
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("grillFish")}
-            data-href="grillFish"
+            onClick={handleFilterKeyChange("soup")}
+            data-href="soup"
           >
-            Grill Fish
+            Soup
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("smoothies")}
-            data-href="smoothies"
+            onClick={handleFilterKeyChange("riceBowl")}
+            data-href="riceBowl"
           >
-            Smoothies
+            riceBowl
           </a>
           <a
             className="c-pointer"
-            onClick={handleFilterKeyChange("lemanades")}
-            data-href="lemanades"
+            onClick={handleFilterKeyChange("mains")}
+            data-href="mains"
           >
-            Lemanades
+            mains
           </a>
           <a
             className="c-pointer"
@@ -742,7 +758,7 @@ const CoffeeMenu = () => {
           >
             Iced Teas
           </a>
-          <a
+          {/* <a
             className="c-pointer"
             onClick={handleFilterKeyChange("mocktails")}
             data-href="mocktails"
@@ -762,7 +778,7 @@ const CoffeeMenu = () => {
             data-href="burgers"
           >
             Burgers
-          </a>
+          </a> */}
           <a
             className="c-pointer"
             onClick={handleFilterKeyChange("appetizersVeg")}
@@ -773,10 +789,10 @@ const CoffeeMenu = () => {
         </div>
         <div
           className="kf-menu-items"
-          style={{ backgroundImage: "url(images/menu_logo.png)" }}
+          style={{ backgroundImage: "url(Logo/logo.png)" }}
         >
           <div className="row all-menu-items">
-            {bachelors.map((item, index) => (
+            {salad.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -787,7 +803,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -798,7 +814,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             ))}
-            {couples.map((item, index) => (
+            {sandwich.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -809,7 +825,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -820,7 +836,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             ))}
-            {hotbeverages.map((item, index) => (
+            {/* {hotbeverages.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -831,7 +847,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -853,7 +869,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -875,7 +891,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -897,7 +913,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -919,7 +935,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -929,8 +945,8 @@ const CoffeeMenu = () => {
                   </div>
                 </div>
               </div>
-            ))}
-            {grillFish.map((item, index) => (
+            ))} */}
+            {ItalianThinCrustPizzas.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -941,7 +957,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -952,7 +968,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             ))}
-            {lemanades.map((item, index) => (
+            {soup.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -963,7 +979,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -974,7 +990,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             ))}
-            {smoothies.map((item, index) => (
+            {mains.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -985,7 +1001,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -996,7 +1012,7 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             ))}
-            {mocktails.map((item, index) => (
+            {riceBowl.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
                 key={index}
@@ -1007,7 +1023,29 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
+                    </a>
+                  </div>
+                  <div className="desc">
+                    <h5 className="name">{item.name}</h5>
+                    <div className="subname">{item.subname}</div>
+                    <div className="price">{item.price}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {/* {mocktails.map((item, index) => (
+              <div
+                className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
+                key={index}
+              >
+                <div
+                  className="kf-menu-item element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <div className="image kf-image-hover">
+                    <a href={item.imageSrc} className="has-popup-image">
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -1029,7 +1067,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -1051,7 +1089,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
@@ -1061,7 +1099,7 @@ const CoffeeMenu = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))} */}
             {appetizersVeg.map((item, index) => (
               <div
                 className={`kf-menu-item-col col-xs-12 col-sm-12 col-md-12 col-lg-6 ${item.className}`}
@@ -1073,7 +1111,7 @@ const CoffeeMenu = () => {
                 >
                   <div className="image kf-image-hover">
                     <a href={item.imageSrc} className="has-popup-image">
-                      <img src={item.imageSrc} alt={item.name} />
+                      <img src={item.imageSrc} alt={item.name} loading="lazy" />
                     </a>
                   </div>
                   <div className="desc">
