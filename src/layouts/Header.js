@@ -45,7 +45,7 @@ const Header = () => {
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
             {/* location */}
             <div className="kf-h-group">
-              <i className="fas fa-map-marker-alt" /> <em>Location :</em> Doctor's Colony Rd, Kavuri Hills, Madhapur, Hyderabad
+              <i className="fas fa-map-marker-alt" /> <em>Location :</em> Kavuri Hills, Madhapur, Hyderabad
             </div>
           </div>
         </div>

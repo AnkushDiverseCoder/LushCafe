@@ -36,13 +36,13 @@ const About = () => {
                     className="kf-subtitle element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    About Kaffen
+                    About Lush Cafe
                   </div>
                   <h3
                     className="kf-title element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    New London Coffee Founded For Extraordinary Test
+                    Experience the Art of Coffee
                   </h3>
                 </div>
                 <div
@@ -50,9 +50,7 @@ const About = () => {
                   data-animate="active"
                 >
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error voluptate
-                    accusantium doloremque laudantium, totam rem aperiam eaque
-                    ipsa quae abillo inventore veritatis
+                    Lush Cafe is dedicated to exceptional coffee, sourcing premium, sustainable beans to create rich, flavorful brews. Our inviting space is designed for coffee lovers to relax, connect, and savor every sip.
                   </p>
                 </div>
                 <div className="kf-choose-list">
@@ -67,8 +65,7 @@ const About = () => {
                       <div className="desc">
                         <h5 className="name">Natural Coffee Beans</h5>
                         <div className="subname">
-                          Sed ut perspiciatis unde omnis iste natus error
-                          voluptate accusantium doloremque
+                          Lush Cafe offers rich brews with imported Arabic coffee and beans.
                         </div>
                       </div>
                     </li>
@@ -82,8 +79,7 @@ const About = () => {
                       <div className="desc">
                         <h5 className="name">100% ISO Certification</h5>
                         <div className="subname">
-                          Sed ut perspiciatis unde omnis iste natus error
-                          voluptate accusantium doloremque
+                          Our brew master, with rich experience, perfects every coffee cup.
                         </div>
                       </div>
                     </li>
@@ -120,7 +116,7 @@ const About = () => {
         </div>
       </section>
       {/* Section Team */}
-      <section className="section kf-team section-bg">
+      {/* <section className="section kf-team section-bg">
         <div className="container">
           <div className="kf-titles align-center">
             <div
@@ -267,7 +263,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Testimonials Carousel */}
       <TestimonialsCarousel />
     </Layouts>

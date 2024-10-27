@@ -23,8 +23,12 @@ const Footer = () => {
               <h5>Working Hours</h5>
               <ul>
                 <li>
-                  Sunday - Sunday
-                  <em>08:00 am - 09:00pm</em>
+                  Monday - Friday
+                  <em>11:00 am - 12:00am</em>
+                </li>
+                <li>
+                  Saturday - Sunday
+                  <em>11:00 am - 1:00pm</em>
                 </li>
               </ul>
             </div>
@@ -88,7 +92,7 @@ const Footer = () => {
               className="kf-copyright element-anim-1 scroll-animate"
               data-animate="active"
             >
-              Copyright © 2024 Lush Cafe. All Rights Reserved.
+              Copyright © 2024 Lush Cafe. Powered By illustricity Media
             </div>
           </div>
         </div>

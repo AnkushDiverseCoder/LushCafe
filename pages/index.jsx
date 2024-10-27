@@ -35,15 +35,26 @@ const Index = () => {
                 data-animate="active"
               >
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptate
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae abillo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsluptatem quia
-                  voluptas sit aspernatur aut odit aut fugit sed quia
-                  consequuntur magni dolores eos qui ratione
+                  Welcome to Lush Café, a vibrant fusion of flavors and
+                  ambiance, where culinary artistry meets the relaxed spirit of
+                  <span className="text-yellow-400 text-lg italic"> Goa.</span> Nestled by the serene <span className="text-yellow-400 text-lg italic">Durgam Cheruvu</span> Lake—one of
+                  Hyderabad's hidden gems—our café offers a delightful escape
+                  with stunning <span className="text-yellow-400 text-lg italic"> Waterfront</span> views. Our menu is a creative blend
+                  of global and Indian cuisines, featuring <span className="text-yellow-400 text-lg italic"> Signature dishes </span>
+                  crafted by our team of master chefs. Each dish is an ode to
+                  flavors, perfected over years of expertise and passion.
+                </p>
+                <br />
+                <p>
+                  Step into our <span className="text-yellow-400 text-lg italic"> Bohemian</span>-inspired space, adorned with earthy
+                  tones and artistic elements that reflect Goa’s carefree charm,
+                  creating an inviting atmosphere for every guest. Whether
+                  you're here for a hearty meal, a cup of <span className="text-yellow-400 text-lg italic"> Artisanal coffee</span>, or a
+                  laid-back evening by the lake, <span className="text-yellow-400 text-lg italic"> Lush Café</span> promises a unique
+                  culinary journey where flavor, style, and nature converge.
                 </p>
               </div>
-              <div
+              {/* <div
                 className="kf-about-quote element-anim-1 scroll-animate"
                 data-animate="active"
               >
@@ -52,7 +63,7 @@ const Index = () => {
                   Quis autem vel eum iure reprehenderit in ealuptate velit esse
                   molestiae
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
               <div
@@ -66,24 +77,15 @@ const Index = () => {
         </div>
       </section>
       {/* Offer */}
-      <div className="p-10 py-14 section kf-services section-bg ">
-        <div className="mx-auto container">
-          <div className="relative z-20 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4" style={{ backgroundImage: 'radial-gradient(circle, rgba(84,60,43,1) 0%, rgba(50,36,26,1) 57%)' }}>
-            <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-8 lg:py-16 lg:pr-0">
-              <div className="lg:self-center">
-                <h2 className="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
-                  <span className="block">New BreakFast Menu <span className="text-red-400">50% Off</span></span>
-                </h2>
-                <p className="mt-4 text-base leading-6 text-dark-blue-800">
-                </p>
-                <Link href="reservation" className="kf-btn ">
-                  <span>Get More Offers</span>
-                </Link>
-              </div>
-            </div>
-            <div className="relative pb-3/5 -mt-6 md:pb-1/2">
-              <img className="absolute inset-0 w-full h-full transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-10 lg:translate-y-20" src="home/aboutOffer.png" />
-            </div>
+      <div className="py-14 section kf-services section-bg ">
+        <div className="mx-auto md:container">
+          <div
+            className="relative z-20 rounded-lg shadow-xl overflow-hidden h-[20vh] lg:grid lg:grid-cols-2 lg:gap-4"
+            style={{
+              backgroundImage:
+                "radial-gradient(circle, rgba(84,60,43,1) 0%, rgba(50,36,26,1) 57%)",
+            }}
+          >
           </div>
         </div>
       </div>
@@ -143,9 +145,9 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">Cocumint Cooler</h5>
+                    <h5 className="name">Brazilian Lemonade</h5>
                     <div className="subname">
-                      Fresh coconut with the touch of cucumber and mint
+                      a creamy, icy, and refreshing drink that's made with limes, sugar, condensed milk, and ice
                     </div>
                     <div className="price">&#8377;349</div>
                   </div>
@@ -181,9 +183,10 @@ const Index = () => {
                     </a>
                   </div>
                   <div className="desc">
-                    <h5 className="name">The Paradise</h5>
+                    <h5 className="name">Cinnamon Basil</h5>
                     <div className="subname">
-                      Strawberry & Passion Fruit Syrup, Orange and Pineapple Juice
+                      Fresh Cinnamon stick, Basil leafs touch off Apple
+                      Juice
                     </div>
                     <div className="price">&#8377;349</div>
                   </div>
@@ -232,7 +235,7 @@ const Index = () => {
         </div>
       </section>
       {/* Section Numbers */}
-      <section className="section kf-numbers">
+      {/* <section className="section kf-numbers">
         <div className="container">
           <div className="kf-numbers-items row">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
@@ -264,7 +267,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section Latest Blog */}
       <section className="section kf-latest-blog section-bg">
         <div className="container">
@@ -294,9 +297,7 @@ const Index = () => {
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                    A Culinary Journey Like No Other
-                  </h5>
+                  <h5 className="name">A Culinary Journey Like No Other</h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
@@ -315,9 +316,7 @@ const Index = () => {
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                    White - themed Place Ambience
-                  </h5>
+                  <h5 className="name">White - themed Place Ambience</h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021
@@ -336,9 +335,7 @@ const Index = () => {
                   </Link>
                 </div>
                 <div className="desc">
-                  <h5 className="name">
-                    Breathtaking Rooftop Views
-                  </h5>
+                  <h5 className="name">Breathtaking Rooftop Views</h5>
                   <div className="kf-date">
                     <i className="far fa-calendar-alt" />
                     25 Sep 2021

@@ -16,13 +16,13 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(home/banner.png)" }}
+              style={{ backgroundImage: "url(home/banner.webp)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
                 <div className="subtitles">Welcome to the Lush Cafe | By the lake </div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                  The London <br />
+                  The Hyderabad <br />
                   Coffee House
                 </h2>
                 <div className="kf-bts">
@@ -39,13 +39,13 @@ const MainSlider = () => {
           <div className="kf-started-item">
             <div
               className="slide js-parallax"
-              style={{ backgroundImage: "url(home/banner1.jpeg)" }}
+              style={{ backgroundImage: "url(home/banner1.webp)" }}
             />
             <div className="container">
               <div className="description align-left element-anim-1">
                 <div className="subtitles">Welcome to the Lush Cafe | By the lake</div>
                 <h2 className="name text-anim-1" data-splitting="chars">
-                  The Paris
+                  The Lake Side
                   <br />
                   Coffee House
                 </h2>
@@ -62,7 +62,7 @@ const MainSlider = () => {
         <div className="mainSlider-prev swiper-button-prev" />
         <div className="mainSlider-next swiper-button-next" />
       </Swiper>
-      <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} />
+      {/* <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} /> */}
     </section>
   );
 };
