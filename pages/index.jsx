@@ -1,9 +1,6 @@
 import MainSlider from "@/src/components/sliders/MainSlider";
-import TestimonialsCarousel from "@/src/components/sliders/TestimonialsCarousel";
 import Layouts from "@/src/layouts/Layouts";
-import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 const Index = () => {
   return (
@@ -77,18 +74,15 @@ const Index = () => {
         </div>
       </section>
       {/* Offer */}
-      <div className="py-14 section kf-services section-bg ">
+      <div className="py-14 section kf-services section-bg">
         <div className="mx-auto md:container">
           <div
-            className="relative z-20 rounded-lg shadow-xl overflow-hidden h-[20vh] lg:grid lg:grid-cols-2 lg:gap-4"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle, rgba(84,60,43,1) 0%, rgba(50,36,26,1) 57%)",
-            }}
+            className="relative z-20 rounded-lg shadow-xl overflow-hidden min-h-[45vh] lg:grid lg:grid-cols-2 lg:gap-4 bg-cover h-auto md:bg-[url('/offerBanner.png')] bg-[url('/offerBanner1.jpg')]"
           >
           </div>
         </div>
       </div>
+
 
       {/* Section Menu */}
       <section

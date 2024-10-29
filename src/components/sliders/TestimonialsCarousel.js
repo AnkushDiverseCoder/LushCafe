@@ -33,7 +33,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev1.jpg" alt="image" />
+                    <img src="https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=naveen" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -44,12 +44,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      The prawns which they have served was jus finger licking good...top
                     </div>
                     <h5 className="name">
-                      Frederick S. France <em>Web Deigner</em>
+                      Naveen nani <em>1 Week Ago</em>
                     </h5>
                   </div>
                 </div>
@@ -60,7 +58,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev2.jpg" alt="image" />
+                    <img src="https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=Shiv" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -71,12 +69,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      The ambience and food is good here. perfect place to have a chill time with your friends and family. Loved the response of the staff. Had a good time here
                     </div>
                     <h5 className="name">
-                      James M. London <em>Lawyer</em>
+                      The Guy Is Shiv <em>1 Week Ago</em>
                     </h5>
                   </div>
                 </div>
@@ -87,7 +83,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev3.jpg" alt="image" />
+                    <img src="https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=Fazal Rahman" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -98,12 +94,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      Good vibes this place and food was also good really I love this place must visit.
                     </div>
                     <h5 className="name">
-                      Olivia D. New York <em>Dentist</em>
+                      Fazal ur Rahman <em>1 Week Ago</em>
                     </h5>
                   </div>
                 </div>
@@ -114,7 +108,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev1.jpg" alt="image" />
+                    <img src="https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=bhasha pattan" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -125,12 +119,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      I enjoyed food ambience and service, must visit with your loved one. Special thanks to miss Nisha, vishal
                     </div>
                     <h5 className="name">
-                      Frederick S. France <em>Web Deigner</em>
+                      bhasha pattan <em>1 Week ago</em>
                     </h5>
                   </div>
                 </div>
@@ -141,7 +133,7 @@ const TestimonialsCarousel = () => {
                   data-animate="active"
                 >
                   <div className="image">
-                    <img src="images/rev2.jpg" alt="image" />
+                    <img src="https://ui-avatars.com/api/?background=0D8ABC&color=fff&name=Suman Shadangi" alt="image" />
                   </div>
                   <div className="desc">
                     <div className="stars">
@@ -152,39 +144,10 @@ const TestimonialsCarousel = () => {
                       <i className="fas fa-star" />
                     </div>
                     <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
+                      Really liked the service. Staffs are well mannered. It was a good experience.
                     </div>
                     <h5 className="name">
-                      James M. London <em>Lawyer</em>
-                    </h5>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div
-                  className="slide-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <img src="images/rev3.jpg" alt="image" />
-                  </div>
-                  <div className="desc">
-                    <div className="stars">
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                      <i className="fas fa-star" />
-                    </div>
-                    <div className="kf-text">
-                      Sed ut perspiciatis unde omnis natus error luptatem
-                      accusantium doloremque laudantium totam remriam eaque quae
-                      abillo
-                    </div>
-                    <h5 className="name">
-                      Olivia D. New York <em>Dentist</em>
+                    Suman Shadangi <em>1 Week Ago</em>
                     </h5>
                   </div>
                 </div>
