@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { stickyNav } from "../utils";
+import Image from "next/image";
 const Header = () => {
   useEffect(() => {
     stickyNav();
@@ -35,10 +36,13 @@ const Header = () => {
                 <i className="fab fa-facebook-f" />
               </a>
               <a href="twitter.com" target="blank">
-                <i className="fab fa-twitter" />
+                <i className="fab fa-youtube" />
               </a>
               <a href="instagram.com" target="blank">
                 <i className="fab fa-instagram" />
+              </a>
+              <a href="https://wa.me/9676832323" target="blank">
+                <i className="fab fa-whatsapp" />
               </a>
             </div>
           </div>
@@ -57,7 +61,12 @@ const Header = () => {
             {/* logo */}
             <div className="flex justify-center items-center w-full h-full">
               <Link href="/">
-                <img src="Logo/logo.svg" className="h-14 pb-2" alt="image" />
+                <Image
+                  src="/Logo/logo.svg"
+                  alt="Ping Pong"
+                  width={150}
+                  height={100}
+                />
               </Link>
             </div>
           </div>
@@ -82,7 +91,7 @@ const Header = () => {
                   <Link href="gallery">Gallery</Link>
                 </li>
                 <li>
-                <Link href="blog-grid">Blog</Link>
+                  <Link href="blog-grid">Blog</Link>
                 </li>
                 <li>
                   <Link href="contacts">Contacts</Link>
@@ -100,9 +109,6 @@ const Header = () => {
               <span />
             </a>
             {/* btn */}
-            <Link href="offers" className="kf-btn h-btn">
-              <span>Offers</span>
-            </Link>
           </div>
         </div>
       </div>
@@ -110,30 +116,30 @@ const Header = () => {
       <div className="kf-navbar-mobile">
         {/* mobile menu */}
         <div className="kf-main-menu">
-        <ul>
-                <li>
-                  <Link href="/">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="about">About</Link>
-                </li>
-                <li>
-                  <Link href="menu-coffee">
-                    Menu
-                  </Link>
-                </li>
-                <li>
-                  <Link href="gallery">Gallery</Link>
-                </li>
-                <li>
-                <Link href="blog-grid">Blog</Link>
-                </li>
-                <li>
-                  <Link href="contacts">Contacts</Link>
-                </li>
-              </ul>
+          <ul>
+            <li>
+              <Link href="/">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="about">About</Link>
+            </li>
+            <li>
+              <Link href="menu-coffee">
+                Menu
+              </Link>
+            </li>
+            <li>
+              <Link href="gallery">Gallery</Link>
+            </li>
+            <li>
+              <Link href="blog-grid">Blog</Link>
+            </li>
+            <li>
+              <Link href="contacts">Contacts</Link>
+            </li>
+          </ul>
         </div>
         {/* mobile topline */}
         <div className="kf-topline">
