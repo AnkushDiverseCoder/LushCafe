@@ -46,11 +46,11 @@ const ImageView = () => {
           }
         }
       });
-    }, 1500);
+    }, 4000);
   }, []);
   return (
     <Fragment>
-      {img && <ImgViews close={() => setImg(false)} src={imgValue} />}
+      {img && <ImgViews close={() => setImg(false)} src={"/Logo/logo.svg"} />}
     </Fragment>
   );
 };

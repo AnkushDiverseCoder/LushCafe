@@ -39,12 +39,8 @@ const Contacts = () => {
                   <h5 className="name">Main Location</h5>
                   <ul>
                     <li>
-                      55 Main Street, 2nd Block, <br />
-                      3rd Floor, New York
-                    </li>
-                    <li>
-                      394 Main Street, 2nd Block, <br />
-                      3rd Floor, USA
+                      Doctor's Colony Rd, Kavuri Hills, <br />
+                      Madhapur, Hyderabad
                     </li>
                   </ul>
                 </div>
@@ -63,12 +59,8 @@ const Contacts = () => {
                   <h5 className="name">Email Address</h5>
                   <ul>
                     <li>
-                      supportkaffen@gmail.com <br />
-                      www.kaffeninfo.net
-                    </li>
-                    <li>
-                      supportkaffen@gmail.com <br />
-                      www.kaffeninfo.net
+                      lushcafehyd@gmail.com <br />
+                      www.LushcafeHyd.in
                     </li>
                   </ul>
                 </div>
@@ -87,12 +79,8 @@ const Contacts = () => {
                   <h5 className="name">Phone Number</h5>
                   <ul>
                     <li>
-                      +012 (345) 678 99 <br />
-                      123456780
-                    </li>
-                    <li>
-                      +012 (345) 678 99 <br />
-                      123456780
+                      +91 096768 32323 <br />
+                      +91 97001 23230
                     </li>
                   </ul>
                 </div>

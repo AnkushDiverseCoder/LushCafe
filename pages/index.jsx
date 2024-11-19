@@ -1,8 +1,10 @@
 import MainSlider from "@/src/components/sliders/MainSlider";
 import Layouts from "@/src/layouts/Layouts";
+import Image from "next/image";
 import Link from "next/link";
 
 const Index = () => {
+
   return (
     <Layouts>
       {/* Section Started Slider */}
@@ -63,11 +65,14 @@ const Index = () => {
               </div> */}
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
-              <div
-                className="kf-about-image element-anim-1 scroll-animate"
-                data-animate="active"
-              >
-                <img src="home/about.png" alt="image" className="rounded-lg" />
+
+              <div className="relative w-full h-full overflow-hidden"> {/* Parent container */}
+                <Image
+                  src="home/about.png"
+                  alt="Banner Image"
+                  fill // No width or height props when using fill
+                  className="object-cover rounded-lg" // Ensure it covers the entire area
+                />
               </div>
             </div>
           </div>
@@ -110,116 +115,126 @@ const Index = () => {
           >
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu1.jpg" className="has-popup-image">
-                      <img src="images/menu1.jpg" alt="image" />
+                    <a href="home/menu/Bambelio.jpeg" className="has-popup-image">
+                      <Image
+                        src="/home/menu/Bambelio.jpeg"
+                        alt="Bamboleo"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Bamboleo</h5>
-                    <div className="subname">
-                      Passion Fruit Syrup, Coconut Syrup, Milk
-                    </div>
+                    <div className="subname">Passion Fruit Syrup, Coconut Syrup, Milk</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu2.jpg" className="has-popup-image">
-                      <img src="images/menu2.jpg" alt="image" />
+                    <a href="home/menu/BrazilianLemonade.jpg" className="has-popup-image">
+                      <Image
+                        src="/home/menu/BrazilianLemonade.jpg"
+                        alt="Brazilian Lemonade"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Brazilian Lemonade</h5>
-                    <div className="subname">
-                      a creamy, icy, and refreshing drink that's made with limes, sugar, condensed milk, and ice
-                    </div>
+                    <div className="subname">a creamy, icy, and refreshing drink made with limes, sugar, condensed milk, and ice</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu3.jpg" className="has-popup-image">
-                      <img src="images/menu3.jpg" alt="image" />
+                    <a href="home/menu/PingPong.jpeg" className="has-popup-image">
+                      <Image
+                        src="/home/menu/PingPong.jpeg"
+                        alt="Ping Pong"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Ping Pong</h5>
-                    <div className="subname">
-                      Pomegranate, Raspberry, Cranberry
-                    </div>
+                    <div className="subname">Pomegranate, Raspberry, Cranberry</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu4.jpg" className="has-popup-image">
-                      <img src="images/menu4.jpg" alt="image" />
+                    <a href="home/menu/Cinamonbasil.png" className="has-popup-image">
+                      <Image
+                        src="/home/menu/Cinamonbasil.png"
+                        alt="Cinnamon Basil"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Cinnamon Basil</h5>
-                    <div className="subname">
-                      Fresh Cinnamon stick, Basil leafs touch off Apple
-                      Juice
-                    </div>
+                    <div className="subname">Fresh Cinnamon stick, Basil leaves touch off Apple Juice</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu5.jpg" className="has-popup-image">
-                      <img src="images/menu5.jpg" alt="image" />
+                    <a href="home/menu/eSalaCupNamde.jpeg" className="has-popup-image">
+                      <Image
+                        src="/home/menu/eSalaCupNamde.jpeg"
+                        alt="Ee Sala Cup Namde"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Ee Sala Cup Namde</h5>
-                    <div className="subname">
-                      Orange Chunks, Basil leaves, Peach Syrup, Orange Juice
-                    </div>
+                    <div className="subname">Orange Chunks, Basil leaves, Peach Syrup, Orange Juice</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
               </div>
+
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <div
-                  className="kf-menu-item element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
+                <div className="kf-menu-item element-anim-1 scroll-animate" data-animate="active">
                   <div className="image kf-image-hover">
-                    <a href="images/menu6.jpg" className="has-popup-image">
-                      <img src="images/menu6.jpg" alt="image" />
+                    <a href="home/menu/saffronCream.jpg" className="has-popup-image">
+                      <Image
+                        src="/home/menu/saffronCream.jpg"
+                        alt="Saffron Cream"
+                        fill
+                      // width={500}
+                      // height={500}
+                      />
                     </a>
                   </div>
                   <div className="desc">
                     <h5 className="name">Saffron Cream</h5>
-                    <div className="subname">
-                      Saffron Syrup, Amul Cream, Orange Juice
-                    </div>
+                    <div className="subname">Saffron Syrup, Amul Cream, Orange Juice</div>
                     <div className="price">&#8377;349</div>
                   </div>
                 </div>
@@ -287,7 +302,14 @@ const Index = () => {
               >
                 <div className="image kf-image-hover">
                   <Link href="blog-single">
-                    <img src="home/blog1.jpg" alt="image" />
+                    <div className="relative w-full h-full overflow-hidden"> {/* Parent container */}
+                      <Image
+                        src="home/blog1.jpg"
+                        alt="Banner Image"
+                        fill // No width or height props when using fill
+                        className="object-cover rounded-lg" // Ensure it covers the entire area
+                      />
+                    </div>
                   </Link>
                 </div>
                 <div className="desc">
@@ -305,8 +327,15 @@ const Index = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single2">
-                    <img src="home/blog2.jpg" alt="image" />
+                  <Link href="blog-single">
+                    <div className="relative w-full h-full overflow-hidden"> {/* Parent container */}
+                      <Image
+                        src="home/blog2.jpg"
+                        alt="Banner Image"
+                        fill // No width or height props when using fill
+                        className="object-cover rounded-lg" // Ensure it covers the entire area
+                      />
+                    </div>
                   </Link>
                 </div>
                 <div className="desc">
@@ -324,8 +353,15 @@ const Index = () => {
                 data-animate="active"
               >
                 <div className="image kf-image-hover">
-                  <Link href="blog-single3">
-                    <img src="home/blog3.jpg" alt="image" />
+                  <Link href="blog-single">
+                    <div className="relative w-full h-full overflow-hidden"> {/* Parent container */}
+                      <Image
+                        src="home/blog3.jpg"
+                        alt="Banner Image"
+                        fill // No width or height props when using fill
+                        className="object-cover rounded-lg" // Ensure it covers the entire area
+                      />
+                    </div>
                   </Link>
                 </div>
                 <div className="desc">
