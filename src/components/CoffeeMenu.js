@@ -100,42 +100,42 @@ const CoffeeMenu = () => {
       className: "sandwich",
       imageSrc: "/menu/sandwich/BbqChickenSandwich.webp",
       name: "Bbq Chicken Sandwich",
-      subname: "Popcorn Syrup, Pineapple Crush, Ice-cream and Milk",
+      subname: "",
       price: "349",
     },
     {
       className: "sandwich",
       imageSrc: "/menu/sandwich/SpicyCilentroChickenSandwich.webp",
-      name: "Spicy Cilentro Chicken Sandwich  ",
-      subname: "Oreo Biscuit, Ice-cream, Peanut Butter and Milk",
+      name: "Spicy Cilentro Chicken Sandwich",
+      subname: "",
       price: "349",
     },
     {
       className: "sandwich",
       imageSrc: "/menu/sandwich/BbqPaneerSandwich.webp",
       name: "Bbq Paneer Sandwich",
-      subname: "Banana, Expresso, Ice-cream and Milk",
+      subname: "",
       price: "349",
     },
     {
       className: "sandwich",
       imageSrc: "/menu/sandwich/PeriPeriPaneerSandwich.webp",
       name: "Peri Peri Paneer Sandwich",
-      subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
+      subname: "",
       price: "349",
     },
     {
       className: "sandwich",
       imageSrc: "/menu/sandwich/SpicedEggSandwich.webp",
       name: "Spiced Egg Sandwich",
-      subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
+      subname: "",
       price: "349",
     },
     {
       className: "sandwich",
       imageSrc: "/menu/sandwich/GrilledVegAndPestoSandwich.webp",
       name: "Grilled Veg And Pesto Sandwich",
-      subname: "Blueberry Puree, Ice-cream, White Chocolate and Milk",
+      subname: "",
       price: "349",
     },
   ];
@@ -414,24 +414,25 @@ const CoffeeMenu = () => {
       className: "mains",
       imageSrc: "/menu/main/PeriPeriChickenSteak.webp",
       name: "Peri Peri Chicken Steak",
-      subname: "Masala Powder, Lemon Syrup, Ice Cubes",
+      subname: "",
       price: "129",
     },
     {
       className: "mains",
       imageSrc: "/menu/main/CilantroCottageCheeseSteak.webp",
       name: "Cilantro Cottage Cheese Steak",
-      subname: "Sugar Syrup, Lemon Syrup, Ice Cubes",
+      subname: "",
       price: "119",
     },
     {
       className: "mains",
       imageSrc: "/menu/main/CajunCottageCheeseSteak.webp",
       name: "Cajun Cottage Cheese Steak",
-      subname: "Lemon Syrup, Ice Cubes, Salt",
+      subname: "",
       price: "119",
     },
   ];
+
 
   const riceBowl = [
     {
